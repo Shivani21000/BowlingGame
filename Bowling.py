@@ -1,7 +1,7 @@
 
 #File 2 (BowlingGame.py)
 #This file has information about Bowling Game for which the description is
-provided in project assessment.
+#provided in project assessment.
 class BowlingGame:
 def __init__(self):
 self.rolls=[]
@@ -33,10 +33,10 @@ def frameScore(self, rollIndex):
 return self.rolls[rollIndex] + self.rolls[rollIndex + 1]
 #Your tasks for code parts:
 #1: If there are any bugs in the code, you have to remove using debugging
-and run the project and test cases.
+#and run the project and test cases.
 #2: Refactor the code (Improve its structure without changing external
-behaviour).
+#behaviour).
 #3: Report everything using github commits and versioning control.
 ###### Important #####
 # Please complete your project and all tasks according to assessment
-description provided in CANVAS.
+#description provided in CANVAS.
