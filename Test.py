@@ -1,7 +1,11 @@
 #File 1 (Test.py)
 #This file has information about test cases which you need to test.
 import unittest
-import BowlingGame
+
+from BowlingGame import BowlingGame 
+
+
+
 class TestBowlingGame(unittest.TestCase):
 def setUp(self):
 self.game = BowlingGame.BowlingGame()
